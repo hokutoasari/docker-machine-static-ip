@@ -5,7 +5,7 @@ Specify a static IP for VirtualBox VMs.
 ## How to use.
 
 1. Download `docker-machine-static-ip.sh` in your path.
-2. Grant executable permissions. (`$ chmod +x ./docker-machine-static-ip`)
+2. Grant permission. (`$ chmod 755 ./docker-machine-static-ip`)
 3. Run `./docker-machine-static-ip --ip IP_ADDRESS DOCKER_MACHINE_NAME`
 
 ## Usage

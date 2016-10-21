@@ -10,7 +10,7 @@
 #       #!/bin/sh
 #       /etc/init.d/services/dhcp stop
 #       ifconfig eth1 192.168.99.50 netmask 255.255.255.0 broadcast 192.168.99.255 up
-#   3. Grant executable permissions
+#   3. Grant permission
 #       $ sudo chmod 755 /var/lib/boot2docker/bootsync.sh
 #   4. Restart machine and regenerate certs
 #       $ docker-machine restart default
@@ -21,7 +21,7 @@
 declare -r OK=0
 declare -r ERROR=1
 declare -r PROGNAME=$(basename $0)
-declare -r VERSION="0.1"
+declare -r VERSION="0.0.1"
 declare -r CMD_DOCKER_MACHINE=docker-machine
 declare -r IP_ADDRESS_EXAMPLE="192.168.xx.yy"
 
