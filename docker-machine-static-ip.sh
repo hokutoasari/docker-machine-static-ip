@@ -21,7 +21,7 @@
 declare -r OK=0
 declare -r ERROR=1
 declare -r PROGNAME=$(basename $0)
-declare -r VERSION="0.1"
+declare -r VERSION="0.0.1"
 declare -r CMD_DOCKER_MACHINE=docker-machine
 declare -r IP_ADDRESS_EXAMPLE="192.168.xx.yy"
 
