@@ -140,7 +140,7 @@ validate_unique_ip_in_docker_machine() {
   IFS=$'\n'
   for line in $($CMD_DOCKER_MACHINE ls)
   do
-    if [[ "${line}" =~ .*"${ip}".* ]] ; then
+    if [[ "${line}" =~ .*"${ip}:".* ]] ; then
       exists=1
     fi
   done
